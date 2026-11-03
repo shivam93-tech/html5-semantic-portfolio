@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Your Name for questions, collaboration and professional opportunities.">
+  <meta name="theme-color" content="#101827">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | Your Name">
+  <meta property="og:description" content="Get in touch with Your Name.">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Your Name, home">YN<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true" class="menu-icon">☰</span>
+      </button>
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container page-main">
+    <header class="page-heading">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h1>Contact me</h1>
+      <p class="intro">Have a question or an opportunity to discuss? Send a message using the form below.</p>
+    </header>
+
+    <section class="contact-layout" aria-labelledby="form-title">
+      <div class="contact-copy">
+        <h2>Start a conversation</h2>
+        <p>Complete the form and make sure your contact details are correct. All fields are required.</p>
+        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      </div>
+      <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <h2 id="form-title">Send a message</h2>
+        <div class="form-field">
+          <label for="name">Full name <span aria-hidden="true">*</span></label>
+          <input id="name" name="name" type="text" autocomplete="name" required minlength="2">
+        </div>
+        <div class="form-field">
+          <label for="email">Email address <span aria-hidden="true">*</span></label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject <span aria-hidden="true">*</span></label>
+          <input id="subject" name="subject" type="text" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="6" required minlength="10"></textarea>
+        </div>
+        <p class="form-note">Fields marked with * are required. You can navigate every field using the Tab key.</p>
+        <button class="button" type="submit">Send message</button>
+        <p class="form-note">Note: This demo form opens your default email application. Connect a secure form service or backend before publishing to receive messages online.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><p>© <span data-year>2026</span> Your Name. All rights reserved.</p><a href="index.html">Back to home</a></div>
+  </footer>
+</body>
+</html>

@@ -25,3 +25,17 @@ Upload the contents of this folder to the root of the existing repository and co
 
 ## Customization note
 The contact form currently uses a `mailto:` action with a placeholder address (`hello@example.com`). Replace it with your preferred email address before using the form for real messages.
+
+
+## FocusList To-Do App
+The `todo/` directory contains a standalone JavaScript task manager. Open `todo/index.html` locally or visit `/todo/` after publishing the repository with GitHub Pages.
+
+Features:
+- Create, edit, delete and complete tasks
+- All / Active / Completed filters
+- Clear completed tasks
+- Persistent tasks and theme preference using `localStorage`
+- Event delegation and safe text rendering with `textContent`
+- Responsive layout, keyboard-friendly controls and reduced-motion support
+
+No build step or backend is required. Data is stored in the current browser only.
